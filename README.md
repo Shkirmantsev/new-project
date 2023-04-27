@@ -18,3 +18,13 @@
 - ```git push -u origin development```
 - ```git commit -m "save changes in develop"
 - ```git push```
+- ```git checkout master```
+- ```git status```
+- ```git merge development```
+- ```make changes in README.md```
+- ```git add README.md```
+- ```git status```
+- ```git commit -m "Commit final changes in master"```
+- ```git push```
+
+

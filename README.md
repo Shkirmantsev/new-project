@@ -12,3 +12,9 @@
 - ```git add README.md```
 - ```git commit -m "init"```
 - ```git push -u origin master```
+- ```git checkout -b development```
+- change content of README.md
+- ```git add  README.md```
+- ```git push -u origin development```
+- ```git commit -m "save changes in develop"
+- ```git push```

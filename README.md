@@ -1,0 +1,14 @@
+# Steps:
+
+- ```git init```
+- ```git config user.name "Shkirmantsev"```
+- ```git config user.name "Shkirmantsev"```
+- ```git config user.email "shkirmantsev@gmail.com"```
+-  generate token in developer settings of GitHub account
+- ```touch README.md```
+- change content of README.md
+- ```curl -H "Authorization: token MY_GITHUB_TOKEN" https://api.github.com/user/repos -d '{"name":"new-project"}'``
+- ```git remote add origin git@github.com:shkirmantsev/new-project```
+- ```git add README.md```
+- ```git commit -m "init"```
+- ```git push -u origin master```
